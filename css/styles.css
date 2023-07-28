@@ -1,0 +1,49 @@
+body {
+    font-family: "Indie Flower";
+    font-weight: 900;
+    text-align: center;
+    background-color: #3e3a48;
+    overflow: hidden;
+}
+
+h1 {
+    display: inline-block;
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+.row {
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 1100px){
+    .dice {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    h1 {
+        font-size: 5rem;
+    }
+    
+    footer {
+        margin-top: 10%;
+    }
+}
